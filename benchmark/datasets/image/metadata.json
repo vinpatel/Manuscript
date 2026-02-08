@@ -1,0 +1,715 @@
+{
+  "dataset_info": {
+    "name": "Manuscript Image Benchmark Dataset",
+    "version": "1.0.0",
+    "description": "A collection of 50 human-created photographs and 50 AI-generated images for benchmarking AI content detection",
+    "created_date": "2026-01-17",
+    "total_images": 100,
+    "human_images": 50,
+    "ai_images": 50
+  },
+  "human_images": [
+    {
+      "file_name": "human_photo_001.jpg",
+      "source_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Mountain landscape with dramatic peaks and valleys"
+    },
+    {
+      "file_name": "human_photo_002.jpg",
+      "source_url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Nature scene with mountains and sunlight"
+    },
+    {
+      "file_name": "human_photo_003.jpg",
+      "source_url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Forest pathway through trees"
+    },
+    {
+      "file_name": "human_photo_004.jpg",
+      "source_url": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Waterfall in natural setting"
+    },
+    {
+      "file_name": "human_photo_005.jpg",
+      "source_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Lake and mountain landscape"
+    },
+    {
+      "file_name": "human_photo_006.jpg",
+      "source_url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Ocean waves and sea"
+    },
+    {
+      "file_name": "human_photo_007.jpg",
+      "source_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Tropical beach with palm trees"
+    },
+    {
+      "file_name": "human_photo_008.jpg",
+      "source_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Starry night sky over mountains"
+    },
+    {
+      "file_name": "human_photo_009.jpg",
+      "source_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Foggy mountain landscape"
+    },
+    {
+      "file_name": "human_photo_010.jpg",
+      "source_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Sunlit forest with tall trees"
+    },
+    {
+      "file_name": "human_photo_011.jpg",
+      "source_url": "https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Mountain range panoramic view"
+    },
+    {
+      "file_name": "human_photo_012.jpg",
+      "source_url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Sunset over landscape"
+    },
+    {
+      "file_name": "human_photo_013.jpg",
+      "source_url": "https://images.unsplash.com/photo-1500622944204-b135684e99fd?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Mountain lake reflection"
+    },
+    {
+      "file_name": "human_photo_014.jpg",
+      "source_url": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Forest and nature scene"
+    },
+    {
+      "file_name": "human_photo_015.jpg",
+      "source_url": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Misty forest landscape"
+    },
+    {
+      "file_name": "human_photo_016.jpg",
+      "source_url": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Mountain vista with clouds"
+    },
+    {
+      "file_name": "human_photo_017.jpg",
+      "source_url": "https://images.unsplash.com/photo-1520962922320-2038eebab146?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Colorful sunset sky"
+    },
+    {
+      "file_name": "human_photo_018.jpg",
+      "source_url": "https://images.unsplash.com/photo-1504198322253-cfa87a0ff25f?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Desert landscape"
+    },
+    {
+      "file_name": "human_photo_019.jpg",
+      "source_url": "https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Green meadow with mountains"
+    },
+    {
+      "file_name": "human_photo_020.jpg",
+      "source_url": "https://images.unsplash.com/photo-1559825481-12a05cc00344?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Underwater sea life and jellyfish"
+    },
+    {
+      "file_name": "human_photo_021.jpg",
+      "source_url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Pine forest trees"
+    },
+    {
+      "file_name": "human_photo_022.jpg",
+      "source_url": "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Dramatic mountain peaks"
+    },
+    {
+      "file_name": "human_photo_023.jpg",
+      "source_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Computer coding on laptop screen"
+    },
+    {
+      "file_name": "human_photo_024.jpg",
+      "source_url": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Technology and digital abstract"
+    },
+    {
+      "file_name": "human_photo_025.jpg",
+      "source_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Developer workspace with code"
+    },
+    {
+      "file_name": "human_photo_026.jpg",
+      "source_url": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Programming code on screen"
+    },
+    {
+      "file_name": "human_photo_027.jpg",
+      "source_url": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Computer setup and workspace"
+    },
+    {
+      "file_name": "human_photo_028.jpg",
+      "source_url": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "JavaScript code on monitor"
+    },
+    {
+      "file_name": "human_photo_029.jpg",
+      "source_url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Running shoes product photography"
+    },
+    {
+      "file_name": "human_photo_030.jpg",
+      "source_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Red Nike sneaker product photo"
+    },
+    {
+      "file_name": "human_photo_031.jpg",
+      "source_url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Colorful sneakers"
+    },
+    {
+      "file_name": "human_photo_032.jpg",
+      "source_url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "White sneaker on display"
+    },
+    {
+      "file_name": "human_photo_033.jpg",
+      "source_url": "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Breakfast food bowl with fruit"
+    },
+    {
+      "file_name": "human_photo_034.jpg",
+      "source_url": "https://images.unsplash.com/photo-1567620905732-57e4a947f9e0?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Food photography"
+    },
+    {
+      "file_name": "human_photo_035.jpg",
+      "source_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Healthy salad bowl"
+    },
+    {
+      "file_name": "human_photo_036.jpg",
+      "source_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Pizza on wooden board"
+    },
+    {
+      "file_name": "human_photo_037.jpg",
+      "source_url": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Vegetable salad with tomatoes"
+    },
+    {
+      "file_name": "human_photo_038.jpg",
+      "source_url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Gourmet food plating"
+    },
+    {
+      "file_name": "human_photo_039.jpg",
+      "source_url": "https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Burger food photography"
+    },
+    {
+      "file_name": "human_photo_040.jpg",
+      "source_url": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Coffee and pastry"
+    },
+    {
+      "file_name": "human_photo_041.jpg",
+      "source_url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Fresh fruit arrangement"
+    },
+    {
+      "file_name": "human_photo_042.jpg",
+      "source_url": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Fruit and berries"
+    },
+    {
+      "file_name": "human_photo_043.jpg",
+      "source_url": "https://images.unsplash.com/photo-1519638399535-1b036603ac77?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Cars and automotive"
+    },
+    {
+      "file_name": "human_photo_044.jpg",
+      "source_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Coffee cup close-up"
+    },
+    {
+      "file_name": "human_photo_045.jpg",
+      "source_url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Latte art in coffee cup"
+    },
+    {
+      "file_name": "human_photo_046.jpg",
+      "source_url": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Tea cup with leaves"
+    },
+    {
+      "file_name": "human_photo_047.jpg",
+      "source_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Tropical resort with hammock"
+    },
+    {
+      "file_name": "human_photo_048.jpg",
+      "source_url": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Santorini Greece architecture"
+    },
+    {
+      "file_name": "human_photo_049.jpg",
+      "source_url": "https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Forest and lake landscape"
+    },
+    {
+      "file_name": "human_photo_050.jpg",
+      "source_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800",
+      "source": "Unsplash",
+      "generator": null,
+      "content_description": "Mountain peak in clouds"
+    }
+  ],
+  "ai_images": [
+    {
+      "file_name": "ai_gan_face_001.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_002.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_003.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_004.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_005.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_006.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_007.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_008.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_009.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_010.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_011.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_012.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_013.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_014.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_015.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_016.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_017.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_018.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_019.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_020.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_021.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_022.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_023.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_024.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_025.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_026.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_027.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_028.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_029.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_030.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_031.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_032.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_033.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_034.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_035.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_036.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_037.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_038.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_039.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_040.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_041.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_042.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_043.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_044.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_045.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_046.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_gan_face_047.jpg",
+      "source_url": "https://thispersondoesnotexist.com",
+      "source": "ThisPersonDoesNotExist",
+      "generator": "stylegan2",
+      "content_description": "AI-generated photorealistic human face"
+    },
+    {
+      "file_name": "ai_sd_landscape_001.jpg",
+      "source_url": "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/assets/stable-samples/img2img/sketch-mountains-input.jpg",
+      "source": "Stable Diffusion GitHub",
+      "generator": "stable-diffusion-v1",
+      "content_description": "AI-generated mountain landscape sketch"
+    },
+    {
+      "file_name": "ai_sd_landscape_002.jpg",
+      "source_url": "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/assets/stable-samples/img2img/mountains-2.png",
+      "source": "Stable Diffusion GitHub",
+      "generator": "stable-diffusion-v1",
+      "content_description": "AI-generated mountain landscape painting"
+    },
+    {
+      "file_name": "ai_sd_merged_001.png",
+      "source_url": "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/assets/stable-samples/txt2img/merged-0005.png",
+      "source": "Stable Diffusion GitHub",
+      "generator": "stable-diffusion-v1",
+      "content_description": "AI-generated text-to-image sample grid"
+    }
+  ]
+}

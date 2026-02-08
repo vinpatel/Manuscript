@@ -1,0 +1,9 @@
+Question: How do astronomers know the size and distance of planets / stars / galaxies ? It always boggled my mind when they display the epic sized numbers when describing distances and size of space things ... Explain like I'm five.
+
+Answer: Great question! Astronomers have developed a number of techniques to measure the sizes and distances of celestial objects, such as planets, stars, and galaxies.
+
+One way to measure the size of an object is to use something called "angular size." Angular size is the size of an object as it appears from Earth, measured in degrees. For example, the angular size of the Moon as seen from Earth is about 0.5 degrees, which is about the same as the angular size of your little finger held at arm's length. By measuring the angular size of an object and knowing its distance from us, we can calculate the actual size of the object.
+
+Another way to measure distance is to use something called "parallax." Parallax is the apparent shift in the position of an object due to a change in the observer's position. For example, if you hold your finger in front of your face and close one eye, then open that eye and close the other eye, your finger will appear to shift relative to the background. Astronomers use this same principle to measure the distances to nearby stars. By measuring the amount of shift in a star's position over the course of a year, we can calculate its distance from Earth.
+
+There are many other techniques that astronomers use to measure the sizes and distances of celestial objects, such as using the brightness of stars to determine their distance, or using the redshift of galaxies to measure their speed and distance. These techniques can be a bit more complex, but they all rely on basic principles of physics and mathematics to help us understand the vastness of the universe.

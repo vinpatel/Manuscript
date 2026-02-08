@@ -1,0 +1,11 @@
+Question: How are we running out of antibiotics Just what goes into making them that we ca n't get anymore Explain like I'm five.
+
+Answer: Antibiotics are drugs that are used to kill or stop the growth of bacteria, which are tiny organisms that can cause infections in the body. Antibiotics are made from a variety of natural and synthetic (man-made) substances, and they work by targeting specific parts of the bacteria's cell structure or metabolism.
+
+There are several reasons why we may be running out of antibiotics. One reason is that bacteria can evolve and become resistant to the drugs that are used to kill them. This is called antibiotic resistance. When bacteria become resistant to an antibiotic, the drug no longer works to kill them, and infections caused by these bacteria can become difficult or even impossible to treat.
+
+Another reason we may be running out of antibiotics is that it can be difficult and costly to develop new drugs. Developing a new antibiotic requires a lot of time, money, and research, and there may not always be enough resources or funding available to do this.
+
+Finally, some people overuse or misuse antibiotics, which can also contribute to the problem of antibiotic resistance. For example, if someone takes an antibiotic when they have a viral infection (such as a cold or the flu) instead of a bacterial infection, the drug will not work and will not kill the virus. This can lead to the bacteria in their body becoming resistant to the drug, which can make it harder to treat future infections.
+
+Overall, the problem of running out of antibiotics is a complex one that is caused by a combination of factors, including the evolution of antibiotic-resistant bacteria, the difficulty and cost of developing new drugs, and the overuse and misuse of antibiotics.

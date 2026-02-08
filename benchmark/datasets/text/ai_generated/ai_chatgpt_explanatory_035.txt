@@ -1,0 +1,14 @@
+Question: CSS I 've tried , I really have , but i just ca n't grasp what it is or how to work with it ... Please explain like I'm five.
+
+Answer: Sure! CSS stands for Cascading Style Sheets. It is a language that is used to style and layout web pages. It is used to make the web page look a certain way, such as changing the colors, font sizes, and layout of the page. For example, you can use CSS to make all of the headings on a web page a certain color, or to make all the paragraphs a certain font size. You can also use CSS to change the layout of the page, such as making the main content area wider or narrower, or changing the position of the sidebar. To use CSS, you will need to create a file that contains your styles. This file should have a .css extension. Then, you will need to link to this file from your HTML file. The HTML file is what tells the web browser what the content of the web page is, and the CSS file is what tells the web browser how to style and layout that content. You can add CSS styles to your HTML file in a few different ways. One way is to use a <style> element in the <head> of your HTML file, like this: Copy code
+<head>
+  <style>
+    /* Your CSS styles go here */
+  </style>
+</head> Another way is to link to an external CSS file from your HTML file, like this: Copy code
+<head>
+  <link rel="stylesheet" href="/path/to/your/css/file.css">
+</head> Once you have your CSS file set up, you can start adding styles to it. Styles are made up of two parts: a selector and a declaration. The selector is used to target specific elements on the page, and the declaration is used to specify the styles that should be applied to those elements. Here's an example of a style that changes the color of all the headings on a page: Copy code
+h1, h2, h3, h4, h5, h6 {
+  color: red;
+} In this example, h1, h2, h3, h4, h5, and h6 are the selectors, and color: red; is the declaration. The declaration specifies that all the headings should be red. I hope that helps! Let me know if you have any more questions.

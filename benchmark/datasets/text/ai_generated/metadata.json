@@ -1,0 +1,359 @@
+{
+  "dataset_name": "Manuscript AI-Generated Text Samples",
+  "total_samples": 50,
+  "source_dataset": "Hello-SimpleAI/HC3 (Human ChatGPT Comparison Corpus)",
+  "ai_model": "ChatGPT (GPT-3.5)",
+  "license": "CC-BY-SA-4.0",
+  "samples": [
+    {
+      "file_name": "ai_chatgpt_explanatory_001.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 263,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_002.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 355,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_003.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 295,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_004.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 274,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_005.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 212,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_technical_006.txt",
+      "source": "HC3_wiki_csai_ChatGPT",
+      "content_type": "technical",
+      "word_count": 169,
+      "description": "ChatGPT-generated answer from HC3_wiki_csai dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_007.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 203,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_008.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 258,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_009.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 176,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_010.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 190,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_011.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 187,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_012.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 230,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_013.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 266,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_014.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 295,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_015.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 210,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_016.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 266,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_017.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 305,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_018.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 182,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_019.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 266,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_020.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 229,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_021.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 210,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_022.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 244,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_023.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 201,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_024.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 202,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_025.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 219,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_026.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 267,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_027.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 134,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_028.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 284,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_029.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 240,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_030.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 250,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_031.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 316,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_032.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 234,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_033.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 268,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_034.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 229,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_035.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 394,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_036.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 213,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_037.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 176,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_038.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 322,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_039.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 211,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_technical_040.txt",
+      "source": "HC3_wiki_csai_ChatGPT",
+      "content_type": "technical",
+      "word_count": 167,
+      "description": "ChatGPT-generated answer from HC3_wiki_csai dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_041.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 334,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_042.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 233,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_043.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 267,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_044.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 245,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_045.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 267,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_046.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 272,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_047.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 148,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_048.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 257,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_049.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 217,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "ai_chatgpt_explanatory_050.txt",
+      "source": "HC3_reddit_eli5_ChatGPT",
+      "content_type": "explanatory",
+      "word_count": 252,
+      "description": "ChatGPT-generated answer from HC3_reddit_eli5 dataset"
+    }
+  ]
+}

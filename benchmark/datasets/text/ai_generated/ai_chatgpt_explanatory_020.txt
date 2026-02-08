@@ -1,0 +1,11 @@
+Question: If we can have 5 " 1080p displays why ca n't we have 20 " 8k displays ? This is definitely something I 've wondered for a while .. Explain like I'm five.
+
+Answer: Sure! So, when you're talking about the resolution of a display, like 1080p or 8k, you're talking about how many pixels (tiny dots of color) are on the screen. The more pixels there are, the more detailed and clear the image will look.
+
+Now, when it comes to the size of a display, like a 20 inch screen, that has to do with how big the screen is. The bigger the screen, the more space there is to fit all those pixels.
+
+So, the reason why we can have smaller displays with a higher resolution, like a 1080p display, is because there's not as much space to fit all those pixels. On a smaller screen, you don't need as many pixels to make the image look good.
+
+On a bigger screen, like a 20 inch 8k display, there's a lot more space to fill with pixels. This means that you need a lot more pixels to make the image look good, and it can be more difficult and expensive to fit that many pixels onto a single screen.
+
+I hope that helps to explain things! Let me know if you have any other questions.

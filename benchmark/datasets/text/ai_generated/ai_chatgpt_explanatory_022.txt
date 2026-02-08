@@ -1,0 +1,9 @@
+Question: How were the first video games programmed ? Like on the atari and NES ? Were they coded or what ? Explain like I'm five.
+
+Answer: The first video games were programmed using computer code, which is a set of instructions that tells a computer what to do. To create a video game, a programmer would write a program using a programming language, such as C or Assembly, and then use that program to tell the computer how to display the game on the screen and how to respond to the player's input.
+
+On early systems like the Atari and NES, the programming was done using a special type of computer called a microprocessor. The programmer would write the code using a computer and then transfer it to the microprocessor using a special device called a ROM burner. The ROM burner would write the code onto a ROM (read-only memory) chip, which could then be inserted into the video game console.
+
+Once the ROM chip was inserted into the console, the player could start the game by turning on the console and selecting the game from a list of available options. The console would then run the code on the ROM chip, following the instructions to display the game and respond to the player's input.
+
+I hope that helps to explain how video games were programmed on early systems like the Atari and NES. Do you have any other questions about this topic?
