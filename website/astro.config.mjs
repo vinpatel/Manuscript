@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://vinpatel.github.io',
-	base: '/manuscript',
+	base: '/Manuscript',
 	integrations: [
 		starlight({
 			title: 'Manuscript',
@@ -19,15 +19,15 @@ export default defineConfig({
 				'./src/styles/custom.css',
 			],
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/vinpatel/manuscript' },
-				{ icon: 'x.com', label: 'Twitter', href: 'https://twitter.com/manuscript' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/vinpatel/Manuscript' },
+				{ icon: 'x.com', label: 'Twitter', href: 'https://twitter.com/Manuscript' },
 			],
 			head: [
 				{
 					tag: 'meta',
 					attrs: {
 						property: 'og:image',
-						content: 'https://vinpatel.github.io/manuscript/og-image.png',
+						content: 'https://vinpatel.github.io/Manuscript/og-image.png',
 					},
 				},
 				{
