@@ -1,0 +1,31 @@
+/* Custom CSS for Manuscript Starlight Docs */
+
+:root {
+  --sl-color-accent-low: #1e1b4b;
+  --sl-color-accent: #7c3aed;
+  --sl-color-accent-high: #c4b5fd;
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: #eceef2;
+  --sl-color-gray-2: #c0c2c7;
+  --sl-color-gray-3: #888b96;
+  --sl-color-gray-4: #545861;
+  --sl-color-gray-5: #353841;
+  --sl-color-gray-6: #24272f;
+  --sl-color-black: #17181c;
+  --sl-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --sl-font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent-low: #ddd6fe;
+  --sl-color-accent: #7c3aed;
+  --sl-color-accent-high: #4c1d95;
+  --sl-color-white: #17181c;
+  --sl-color-gray-1: #24272f;
+  --sl-color-gray-2: #353841;
+  --sl-color-gray-3: #545861;
+  --sl-color-gray-4: #888b96;
+  --sl-color-gray-5: #c0c2c7;
+  --sl-color-gray-6: #eceef2;
+  --sl-color-black: #ffffff;
+}
