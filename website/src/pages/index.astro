@@ -1,0 +1,339 @@
+---
+// Static landing page for Manuscript
+---
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Manuscript - Open Source AI Content Detector. Detect AI-generated text, images, audio & video—100% offline, self-hosted, zero external calls." />
+  <meta property="og:title" content="Manuscript - Open Source AI Content Detector" />
+  <meta property="og:description" content="Detect AI-generated text, images, audio & video—100% offline, self-hosted, zero external calls." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="/manuscript/favicon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/manuscript/landing.css" />
+  <title>Manuscript - Open Source AI Content Detector</title>
+</head>
+<body>
+  <nav>
+    <div class="container nav-content">
+      <a href="/manuscript/" class="logo">
+        <div class="logo-icon">M</div>
+        Manuscript
+      </a>
+      <div class="nav-links">
+        <a href="#benchmark">Benchmarks</a>
+        <a href="#features">Features</a>
+        <a href="#comparison">Compare</a>
+        <a href="/manuscript/introduction/">Docs</a>
+        <a href="https://github.com/vinpatel/manuscript" class="nav-btn">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        100% Privacy-First - Self-Hosted - Open Source
+      </div>
+
+      <h1>
+        AI Content Detection<br />
+        <span class="gradient-text">Without Compromise</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        The only open-source detector for text, images, audio, and video that runs entirely on your infrastructure.
+        Your data never leaves your network. Ever.
+      </p>
+
+      <div class="detection-types">
+        <span class="detection-type text">Text</span>
+        <span class="detection-type image">Image</span>
+        <span class="detection-type audio">Audio</span>
+        <span class="detection-type video">Video</span>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="/manuscript/quickstart/" class="btn-primary">Get Started</a>
+        <a href="https://github.com/vinpatel/manuscript" class="btn-secondary">View on GitHub</a>
+      </div>
+
+      <div class="code-snippet">
+        <div class="code-header">
+          <span class="code-dot red"></span>
+          <span class="code-dot yellow"></span>
+          <span class="code-dot green"></span>
+        </div>
+        <div class="code-content">
+          <span class="comment"># Run with Docker in seconds</span><br />
+          <span class="keyword">docker</span> run -p 8080:8080 manuscript/manuscript<br /><br />
+          <span class="comment"># Detect AI content</span><br />
+          <span class="keyword">curl</span> -X POST http://localhost:8080/verify \<br />
+          &nbsp;&nbsp;-d '&#123;"text": "Your content here"&#125;'
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-value">90%</div>
+          <div class="stat-label">Text Detection Accuracy</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">4</div>
+          <div class="stat-label">Content Types Supported</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">0</div>
+          <div class="stat-label">External API Calls</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">8ms</div>
+          <div class="stat-label">Average Response Time</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="benchmark" id="benchmark">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Benchmark Results</h2>
+        <p class="section-subtitle">Comprehensive evaluation across 300+ samples from academic and real-world datasets</p>
+      </div>
+
+      <div class="benchmark-table-container">
+        <table class="benchmark-table">
+          <thead>
+            <tr>
+              <th>Content Type</th>
+              <th>Dataset Size</th>
+              <th>Accuracy</th>
+              <th>Precision</th>
+              <th>Recall</th>
+              <th>F1 Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="detection-type text">Text</span></td>
+              <td>100 samples</td>
+              <td><span class="metric-good">90.00%</span><div class="accuracy-bar"><div class="accuracy-fill accuracy-90"></div></div></td>
+              <td class="metric-good">100.00%</td>
+              <td>80.00%</td>
+              <td class="metric-good">88.89%</td>
+            </tr>
+            <tr>
+              <td><span class="detection-type image">Image</span></td>
+              <td>100 samples</td>
+              <td><span class="metric-warning">50.00%</span><div class="accuracy-bar"><div class="accuracy-fill accuracy-50"></div></div></td>
+              <td>50.00%</td>
+              <td class="metric-good">100.00%</td>
+              <td>66.67%</td>
+            </tr>
+            <tr>
+              <td><span class="detection-type audio">Audio</span></td>
+              <td>100 samples</td>
+              <td><span class="metric-warning">46.00%</span><div class="accuracy-bar"><div class="accuracy-fill accuracy-46"></div></div></td>
+              <td>47.92%</td>
+              <td class="metric-good">92.00%</td>
+              <td>63.01%</td>
+            </tr>
+            <tr>
+              <td><span class="detection-type video">Video</span></td>
+              <td>100 samples</td>
+              <td><span class="metric-pending">Pending</span></td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="benchmark-note">
+        Benchmarked January 2026 with Manuscript v0.2.0 - <a href="/manuscript/benchmarks/" class="benchmark-link">View Full Report</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="collage" id="samples">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Sample Detection Gallery</h2>
+        <p class="section-subtitle">Real samples from our benchmark datasets. Can you tell which are AI-generated?</p>
+      </div>
+
+      <div class="collage-grid">
+        <div class="collage-item human" data-label="Human"><img src="/manuscript/samples/human_photo_001.jpg" alt="Human photo sample" loading="lazy" /></div>
+        <div class="collage-item ai" data-label="AI Generated"><img src="/manuscript/samples/ai_gan_face_001.jpg" alt="AI generated sample" loading="lazy" /></div>
+        <div class="collage-item human" data-label="Human"><img src="/manuscript/samples/human_photo_002.jpg" alt="Human photo sample" loading="lazy" /></div>
+        <div class="collage-item ai" data-label="AI Generated"><img src="/manuscript/samples/ai_gan_face_002.jpg" alt="AI generated sample" loading="lazy" /></div>
+        <div class="collage-item human" data-label="Human"><img src="/manuscript/samples/human_photo_003.jpg" alt="Human photo sample" loading="lazy" /></div>
+        <div class="collage-item ai" data-label="AI Generated"><img src="/manuscript/samples/ai_gan_face_003.jpg" alt="AI generated sample" loading="lazy" /></div>
+        <div class="collage-item human" data-label="Human"><img src="/manuscript/samples/human_photo_004.jpg" alt="Human photo sample" loading="lazy" /></div>
+        <div class="collage-item ai" data-label="AI Generated"><img src="/manuscript/samples/ai_gan_face_004.jpg" alt="AI generated sample" loading="lazy" /></div>
+        <div class="collage-item human" data-label="Human"><img src="/manuscript/samples/human_photo_005.jpg" alt="Human photo sample" loading="lazy" /></div>
+        <div class="collage-item ai" data-label="AI Generated"><img src="/manuscript/samples/ai_gan_face_005.jpg" alt="AI generated sample" loading="lazy" /></div>
+        <div class="collage-item human" data-label="Human"><img src="/manuscript/samples/human_photo_006.jpg" alt="Human photo sample" loading="lazy" /></div>
+        <div class="collage-item ai" data-label="AI Generated"><img src="/manuscript/samples/ai_gan_face_006.jpg" alt="AI generated sample" loading="lazy" /></div>
+      </div>
+      <p class="collage-note">Hover to reveal labels. Part of our 300+ sample benchmark dataset.</p>
+    </div>
+  </section>
+
+  <section class="comparison" id="comparison">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Choose Manuscript?</h2>
+        <p class="section-subtitle">The only solution that combines multi-modal detection with complete privacy</p>
+      </div>
+
+      <div class="comparison-table-container">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th class="highlight">Manuscript</th>
+              <th>GPTZero</th>
+              <th>Originality.ai</th>
+              <th>Turnitin</th>
+              <th>Hive AI</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Self-Hosted</strong></td><td class="check-yes">Yes</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-no">No</td></tr>
+            <tr><td><strong>Works Offline</strong></td><td class="check-yes">Yes</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-no">No</td></tr>
+            <tr><td><strong>Open Source</strong></td><td class="check-yes">MIT</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-no">No</td></tr>
+            <tr><td><strong>Text Detection</strong></td><td class="check-yes">Yes</td><td class="check-yes">Yes</td><td class="check-yes">Yes</td><td class="check-yes">Yes</td><td class="check-partial">Limited</td></tr>
+            <tr><td><strong>Image Detection</strong></td><td class="check-yes">Yes</td><td class="check-no">No</td><td class="check-partial">Add-on</td><td class="check-no">No</td><td class="check-yes">Yes</td></tr>
+            <tr><td><strong>Audio Detection</strong></td><td class="check-yes">Yes</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-yes">Yes</td></tr>
+            <tr><td><strong>Video Detection</strong></td><td class="check-yes">Yes</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-no">No</td><td class="check-yes">Yes</td></tr>
+            <tr><td><strong>API Limits</strong></td><td class="check-yes">Unlimited</td><td class="check-partial">Tiered</td><td class="check-partial">Per-check</td><td class="check-partial">Per-student</td><td class="check-partial">Tiered</td></tr>
+            <tr><td><strong>Cost</strong></td><td class="check-yes">Free Forever</td><td class="check-no">$$$</td><td class="check-no">$$$</td><td class="check-no">$$$$</td><td class="check-no">$$$$</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Built for Enterprise</h2>
+        <p class="section-subtitle">Production-ready features for teams that demand security and compliance</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">S</div>
+          <h3 class="feature-title">Complete Privacy</h3>
+          <p class="feature-desc">Your data never leaves your infrastructure. Perfect for HIPAA, GDPR, and SOC2 compliance requirements.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">F</div>
+          <h3 class="feature-title">Real-Time Detection</h3>
+          <p class="feature-desc">Sub-10ms response times. Process thousands of requests per second with minimal resource usage.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">D</div>
+          <h3 class="feature-title">Docker Ready</h3>
+          <p class="feature-desc">Single command deployment. Production Dockerfile with multi-stage builds, health checks, and security hardening.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">Z</div>
+          <h3 class="feature-title">Zero Dependencies</h3>
+          <p class="feature-desc">Pure Go implementation with no external libraries. Simple to audit, deploy, and maintain.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">M</div>
+          <h3 class="feature-title">Prometheus Metrics</h3>
+          <p class="feature-desc">Built-in observability with detailed metrics for monitoring accuracy, latency, and throughput.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">A</div>
+          <h3 class="feature-title">Comprehensive API</h3>
+          <p class="feature-desc">RESTful API with batch processing, detailed signal breakdowns, and confidence scoring.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="use-cases">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Who Uses Manuscript?</h2>
+        <p class="section-subtitle">Trusted by organizations that cannot compromise on privacy</p>
+      </div>
+
+      <div class="use-cases-grid">
+        <div class="use-case-card">
+          <h3 class="use-case-title">Healthcare</h3>
+          <ul class="use-case-list">
+            <li>HIPAA-compliant content verification</li>
+            <li>Patient data never leaves your network</li>
+            <li>Detect AI in clinical documentation</li>
+            <li>No third-party data processing</li>
+          </ul>
+        </div>
+        <div class="use-case-card">
+          <h3 class="use-case-title">Legal</h3>
+          <ul class="use-case-list">
+            <li>Protect attorney-client privilege</li>
+            <li>Verify deposition authenticity</li>
+            <li>Detect deepfake evidence</li>
+            <li>Fully auditable detection</li>
+          </ul>
+        </div>
+        <div class="use-case-card">
+          <h3 class="use-case-title">Education</h3>
+          <ul class="use-case-list">
+            <li>Academic integrity at scale</li>
+            <li>No per-seat licensing costs</li>
+            <li>Protect student privacy</li>
+            <li>Integrate with any LMS</li>
+          </ul>
+        </div>
+        <div class="use-case-card">
+          <h3 class="use-case-title">Government</h3>
+          <ul class="use-case-list">
+            <li>Air-gapped network compatible</li>
+            <li>Classified environment ready</li>
+            <li>Full source code audit</li>
+            <li>FedRAMP deployable</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h2 class="cta-title">Ready to Get Started?</h2>
+      <p class="cta-subtitle">Deploy Manuscript in under 30 seconds and start detecting AI content with complete privacy.</p>
+      <div class="cta-buttons">
+        <a href="/manuscript/quickstart/" class="btn-primary">Read the Docs</a>
+        <a href="https://github.com/vinpatel/manuscript" class="btn-secondary">Star on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="/manuscript/introduction/">Documentation</a>
+        <a href="https://github.com/vinpatel/manuscript">GitHub</a>
+        <a href="https://github.com/vinpatel/manuscript/discussions">Community</a>
+        <a href="https://github.com/vinpatel/manuscript/issues">Issues</a>
+      </div>
+      <p class="footer-copy">MIT License - 2026 Manuscript Contributors. Built with Astro.</p>
+    </div>
+  </footer>
+</body>
+</html>
