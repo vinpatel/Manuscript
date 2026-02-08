@@ -1,0 +1,9 @@
+Question: Gödel 's incompleteness theorems I 've read the wiki on it and I still do n't have even the most basic grasp of what they are . Explain like I'm five.
+
+Answer: Sure! Gödel's incompleteness theorems are a set of two theorems that were proven by the mathematician Kurt Gödel in the 1930s. These theorems say that there are some things that cannot be proven or disproven using certain kinds of mathematical systems.
+
+Imagine that you have a set of rules that you can use to prove things. These rules are like a set of instructions that tell you how to figure out if something is true or not. Gödel's incompleteness theorems say that no matter how many rules you have, there will always be some things that you cannot prove using those rules.
+
+For example, suppose you have a set of rules that you can use to prove things about numbers. Gödel's incompleteness theorems say that there will always be some things about numbers that you cannot prove using those rules. This might seem strange or confusing, but it's actually a really important idea in mathematics and computer science.
+
+I hope that helps a little bit! Let me know if you have any other questions about Gödel's incompleteness theorems.

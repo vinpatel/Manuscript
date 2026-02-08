@@ -1,0 +1,7 @@
+Question: Why is x/0 undefined while 0/0 is undetermined ? What 's the difference between the two anyway ? Are n't both inapplicable ? Explain like I'm five.
+
+Answer: Sure! When we divide a number by another number, we are asking "how many times does the second number go into the first number?" For example, if we divide 10 by 2, we are asking "how many times does 2 go into 10?" The answer is 5, because 2 goes into 10 five times.
+
+Now, let's think about what happens when we try to divide a number by zero. Dividing a number by zero is like asking "how many times does zero go into this number?" Zero does not go into any number at all, so we say that dividing a number by zero is undefined.
+
+On the other hand, when we try to divide zero by zero, we are asking "how many times does zero go into zero?" Zero goes into zero zero times, so we say that the answer is undetermined. Does that make sense?

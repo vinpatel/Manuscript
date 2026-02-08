@@ -1,0 +1,358 @@
+{
+  "dataset_name": "Manuscript Human Text Samples",
+  "total_samples": 50,
+  "source_dataset": "Hello-SimpleAI/HC3 (Human ChatGPT Comparison Corpus)",
+  "license": "CC-BY-SA-4.0",
+  "samples": [
+    {
+      "file_name": "human_explanatory_001.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 289,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_002.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 441,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_003.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 266,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_004.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 370,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_005.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 257,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_technical_006.txt",
+      "source": "HC3_wiki_csai",
+      "content_type": "technical",
+      "word_count": 353,
+      "description": "Human-written answer from HC3_wiki_csai dataset"
+    },
+    {
+      "file_name": "human_explanatory_007.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 276,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_008.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 292,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_009.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 249,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_010.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 447,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_011.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 259,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_012.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 268,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_013.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 386,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_014.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 292,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_015.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 350,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_016.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 273,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_017.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 245,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_018.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 255,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_019.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 523,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_020.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 386,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_021.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 693,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_022.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 265,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_023.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 267,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_024.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 560,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_025.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 606,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_026.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 267,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_027.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 301,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_028.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 420,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_029.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 363,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_030.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 343,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_031.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 715,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_032.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 638,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_033.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 846,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_034.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 682,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_035.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 543,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_036.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 288,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_037.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 665,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_038.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 371,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_039.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 445,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_technical_040.txt",
+      "source": "HC3_wiki_csai",
+      "content_type": "technical",
+      "word_count": 170,
+      "description": "Human-written answer from HC3_wiki_csai dataset"
+    },
+    {
+      "file_name": "human_explanatory_041.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 368,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_042.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 263,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_043.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 359,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_044.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 296,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_045.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 658,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_046.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 309,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_047.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 334,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_048.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 312,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_049.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 277,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    },
+    {
+      "file_name": "human_explanatory_050.txt",
+      "source": "HC3_reddit_eli5",
+      "content_type": "explanatory",
+      "word_count": 334,
+      "description": "Human-written answer from HC3_reddit_eli5 dataset"
+    }
+  ]
+}

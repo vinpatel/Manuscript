@@ -1,0 +1,11 @@
+Question: Please explain what is "Computer Go"
+
+Answer: Computer Go is a game that involves computer programs that play the board game Go. Go is an ancient board game that originated in China and is played on a grid of 19x19 intersections. The objective of the game is to surround more territory on the board than your opponent. The game is known for its simple rules and deep strategic complexity.
+
+
+
+Computer Go is a challenging problem for artificial intelligence because it involves complex strategic thinking, long-term planning, and the ability to evaluate positions based on incomplete information. Developing effective algorithms for Computer Go requires a combination of techniques from artificial intelligence, such as machine learning, search, and pattern recognition.
+
+
+
+Computer Go has made significant progress in recent years, and the best computer programs are now able to beat the strongest human players. However, the game remains a challenging problem for artificial intelligence, and there is still much work to be done to improve the capabilities of Computer Go programs.

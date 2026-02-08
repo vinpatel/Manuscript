@@ -1,0 +1,4 @@
+content_type,samples,accuracy,precision,recall,f1
+Text,100,90.00,100.00,80.00,88.89
+Image,100,50.00,50.00,100.00,66.67
+Audio,100,38.00,43.18,76.00,55.07

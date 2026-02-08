@@ -1,0 +1,9 @@
+Question: what is quantum internet and why is it so important ? everyone seems to be talking about it ... but ... what IS it ? ? also is it good or bad ? thank you :) Explain like I'm five.
+
+Answer: Quantum internet is a type of network that uses the principles of quantum mechanics to transmit information. Quantum mechanics is a branch of physics that deals with the behavior of very small things, like atoms and subatomic particles.
+
+One of the key features of quantum internet is that it allows for a special type of communication called "quantum teleportation." This means that information can be transmitted instantly, without the need for a physical connection between the sender and receiver. This could be very useful for a variety of applications, such as secure communication and efficient distribution of information.
+
+Quantum internet is still in the early stages of development, and it's not yet clear how it will be used or what the potential impacts will be. However, many people believe that it has the potential to revolutionize the way we communicate and share information, and could have a big impact on fields such as computer science, medicine, and finance.
+
+It's important to note that quantum internet is not inherently good or bad. Like any technology, it has the potential to be used for both positive and negative purposes. It's up to people to decide how to use it in a way that benefits society.

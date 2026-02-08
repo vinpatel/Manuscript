@@ -1,0 +1,9 @@
+Question: Overclocking I have a FX 6300 and I was comparing it to an i5 . I read that if the FX 6300 is overclocked , it is basically the same thing and cheaper What is it , is it worth it , and how do you do it ? Explain like I'm five.
+
+Answer: Overclocking is the process of making a computer's central processing unit (CPU) run faster than it was originally designed to. The CPU is the "brain" of the computer and performs most of the processing tasks that the computer needs to do. By overclocking the CPU, you can make it run faster and perform tasks more quickly, but there are some risks involved.
+
+To overclock the CPU, you need to change the settings in the computer's BIOS (basic input/output system). The BIOS is a program that controls how the computer starts up and performs certain tasks. You can use the BIOS to change the clock speed of the CPU, which is measured in megahertz (MHz) or gigahertz (GHz). The higher the clock speed, the faster the CPU can perform tasks.
+
+There are a few potential risks to overclocking the CPU. First, it can cause the computer to become unstable and crash, which can be frustrating and require you to restart the computer. Second, it can generate more heat, which can cause the computer to become overheated and potentially damage the hardware. Finally, it can void the warranty on the CPU, which means that if something goes wrong with the CPU after you overclock it, the manufacturer will not repair or replace it for free.
+
+In general, it is not recommended to overclock a CPU unless you are an experienced computer user and are willing to take on the risks involved. If you are not comfortable with the potential risks, it is usually best to leave the CPU at its default clock speed.
