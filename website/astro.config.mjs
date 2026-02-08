@@ -4,11 +4,11 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://vinpatel.github.io',
-	base: '/Manuscript',
+	site: 'https://manuscript.dev',
+	base: '/',
 	integrations: [
 		starlight({
-			title: 'Manuscript',
+			title: 'manuscript.dev',
 			description: 'Open Source AI Content Detector - Privacy-First, Multi-Modal Detection',
 			logo: {
 				light: './src/assets/logo-light.svg',
@@ -27,7 +27,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:image',
-						content: 'https://vinpatel.github.io/Manuscript/og-image.png',
+						content: 'https://manuscript.dev/og-image.png',
 					},
 				},
 				{
