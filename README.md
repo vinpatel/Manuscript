@@ -15,7 +15,7 @@
 
 <br />
 
-[🚀 Quick Start](#-quick-start) • [📖 Documentation](#-api-reference) • [🎯 Use Cases](#-use-cases) • [💬 Discussions](https://github.com/vinpatel/manuscript/discussions)
+[🌐 Website](https://manuscript.dev) • [🚀 Quick Start](#-quick-start) • [📖 Documentation](https://manuscript.dev/introduction/) • [🎯 Use Cases](#-use-cases) • [💬 Discussions](https://github.com/vinpatel/manuscript/discussions)
 
 <br />
 
