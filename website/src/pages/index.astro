@@ -68,10 +68,11 @@
           <span class="code-dot green"></span>
         </div>
         <div class="code-content">
-          <span class="comment"># Run with Docker in seconds</span><br />
-          <span class="keyword">docker</span> run -p 8080:8080 manuscript/manuscript<br /><br />
-          <span class="comment"># Detect AI content</span><br />
-          <span class="keyword">curl</span> -X POST http://localhost:8080/verify \<br />
+          <span class="comment"># Clone and build</span><br />
+          <span class="keyword">git</span> clone https://github.com/vinpatel/Manuscript<br />
+          <span class="keyword">cd</span> Manuscript && <span class="keyword">make</span> build<br /><br />
+          <span class="comment"># Start server and detect AI content</span><br />
+          <span class="keyword">./manuscript</span> serve &amp;&amp; <span class="keyword">curl</span> -X POST localhost:8080/verify \<br />
           &nbsp;&nbsp;-d '&#123;"text": "Your content here"&#125;'
         </div>
       </div>
