@@ -289,11 +289,7 @@ func (a *VideoAnalyzer) parseMovieAtom(data []byte, meta VideoMetadata, stats Vi
 		switch atomType {
 		case "mvhd":
 			// Movie header - contains duration, timescale
-			if atomSize >= 32 {
-				// Duration and timescale for calculating length
-				// Version 0: timescale at 20, duration at 24
-				// Version 1: timescale at 28, duration at 32
-			}
+			// TODO: parse duration/timescale (version 0 at offsets 20/24, version 1 at 28/32)
 
 		case "trak":
 			// Track - check if audio or video
@@ -303,11 +299,6 @@ func (a *VideoAnalyzer) parseMovieAtom(data []byte, meta VideoMetadata, stats Vi
 			}
 			if bytes.Contains(trackData, []byte("vide")) {
 				meta.HasVideo = true
-			}
-
-			// Look for resolution in video track
-			if bytes.Contains(trackData, []byte("avc1")) || bytes.Contains(trackData, []byte("hvc1")) {
-				// H.264 or H.265 video
 			}
 
 		case "meta":

@@ -1650,7 +1650,7 @@ func (a *ImageAnalyzer) analyzeDCTCoefficients(data []byte) float64 {
 
 	// Calculate scores
 	// Normal JPEG entropy is typically 7.0-7.8
-	entropyScore := 0.5
+	var entropyScore float64
 	if entropy < 6.5 {
 		entropyScore = 0.7 // Suspiciously low entropy
 	} else if entropy > 7.9 {
@@ -1660,7 +1660,7 @@ func (a *ImageAnalyzer) analyzeDCTCoefficients(data []byte) float64 {
 	}
 
 	// Zero run analysis
-	zeroRunScore := 0.5
+	var zeroRunScore float64
 	avgZeroRun := zeroRuns.avgLength
 	if avgZeroRun < 1.5 {
 		zeroRunScore = 0.6 // Very few zeros (dense data)

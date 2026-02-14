@@ -63,7 +63,7 @@ func RequestID() Middleware {
 // generateRequestID creates a random 16-character hex string.
 func generateRequestID() string {
 	bytes := make([]byte, 8)
-	rand.Read(bytes)
+	_, _ = rand.Read(bytes)
 	return hex.EncodeToString(bytes)
 }
 

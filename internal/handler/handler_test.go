@@ -151,7 +151,7 @@ func TestVerify_FileUpload(t *testing.T) {
 	if err != nil {
 		t.Fatalf("failed to create form file: %v", err)
 	}
-	part.Write([]byte("This is test content for file upload verification."))
+	_, _ = part.Write([]byte("This is test content for file upload verification."))
 	writer.Close()
 
 	req := httptest.NewRequest("POST", "/verify", &buf)

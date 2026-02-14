@@ -325,60 +325,6 @@ ai_probability should be:
 	return detection.AIProbability, nil
 }
 
-// mockDetection provides a simple heuristic-based detection for development.
-// This is NOT suitable for production use.
-func (d *textDetector) mockDetection(text string) float64 {
-	// Simple heuristics for development/testing
-	// In production, always use real detection APIs
-
-	score := 0.5 // Start neutral
-
-	// Check for common AI patterns (very simplistic)
-	aiPhrases := []string{
-		"as an ai",
-		"i cannot",
-		"i don't have personal",
-		"it's important to note",
-		"in conclusion",
-		"furthermore",
-		"moreover",
-		"in summary",
-		"to summarize",
-	}
-
-	lowerText := string(bytes.ToLower([]byte(text)))
-	for _, phrase := range aiPhrases {
-		if bytes.Contains([]byte(lowerText), []byte(phrase)) {
-			score += 0.1
-		}
-	}
-
-	// Check text variability
-	words := bytes.Fields([]byte(text))
-	if len(words) > 0 {
-		avgWordLen := 0
-		for _, w := range words {
-			avgWordLen += len(w)
-		}
-		avgWordLen /= len(words)
-
-		// AI tends to use more uniform word lengths
-		if avgWordLen > 4 && avgWordLen < 7 {
-			score += 0.05
-		}
-	}
-
-	// Clamp to valid range
-	if score > 1.0 {
-		score = 1.0
-	}
-	if score < 0.0 {
-		score = 0.0
-	}
-
-	return score
-}
-
 // fetchTextFromURL fetches text content from a URL.
 func (d *textDetector) fetchTextFromURL(ctx context.Context, url string) (string, error) {
 	req, err := http.NewRequestWithContext(ctx, "GET", url, nil)
@@ -403,21 +349,6 @@ func (d *textDetector) fetchTextFromURL(ctx context.Context, url string) (string
 	}
 
 	return string(body), nil
-}
-
-// aggregateScores combines multiple detector scores.
-// Currently uses simple average; could be weighted based on detector accuracy.
-func (d *textDetector) aggregateScores(scores []float64) float64 {
-	if len(scores) == 0 {
-		return 0.5 // Neutral if no scores
-	}
-
-	sum := 0.0
-	for _, s := range scores {
-		sum += s
-	}
-
-	return sum / float64(len(scores))
 }
 
 // abs returns the absolute value of a float64.

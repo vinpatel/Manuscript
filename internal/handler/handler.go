@@ -194,11 +194,13 @@ func (h *Handler) Verify(w http.ResponseWriter, r *http.Request) {
 
 	// Build response
 	response := VerifyResponse{
-		ID:          job.ID,
 		Human:       result.Human,
 		Confidence:  result.Confidence,
 		ContentType: string(result.ContentType),
-		CreatedAt:   job.CreatedAt,
+	}
+	if job != nil {
+		response.ID = job.ID
+		response.CreatedAt = job.CreatedAt
 	}
 
 	// Include details if requested
