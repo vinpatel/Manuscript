@@ -227,7 +227,7 @@ func BenchmarkCreateJob(b *testing.B) {
 
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
-		repo.CreateJob(ctx, job)
+		_, _ = repo.CreateJob(ctx, job)
 	}
 }
 
@@ -241,7 +241,7 @@ func BenchmarkGetJob(b *testing.B) {
 
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
-		repo.GetJob(ctx, created.ID)
+		_, _ = repo.GetJob(ctx, created.ID)
 	}
 }
 

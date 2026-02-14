@@ -1840,7 +1840,7 @@ func (a *AudioAnalyzer) detectClipping(data []byte) float64 {
 	// Assume 16-bit PCM
 	for i := 0; i < len(data)-1 && total < 10000; i += 2 {
 		sample := int16(binary.LittleEndian.Uint16(data[i : i+2]))
-		if sample >= 32767 || sample <= -32768 {
+		if sample == 32767 || sample == -32768 {
 			clipped++
 		}
 		total++
