@@ -75,47 +75,17 @@ curl -X POST http://localhost:8080/verify \
 }
 ```
 
-### Image Detection
+### Other Content Types
+
+The same `/verify` endpoint handles images, audio, and video via file upload:
 
 ```bash
-curl -X POST http://localhost:8080/verify \
-  -F "image=@photo.jpg"
+curl -X POST http://localhost:8080/verify -F "image=@photo.jpg"
+curl -X POST http://localhost:8080/verify -F "audio=@recording.mp3"
+curl -X POST http://localhost:8080/verify -F "video=@clip.mp4"
 ```
 
-### Audio Detection
-
-```bash
-curl -X POST http://localhost:8080/verify \
-  -F "audio=@recording.mp3"
-```
-
-### Video Detection
-
-```bash
-curl -X POST http://localhost:8080/verify \
-  -F "video=@clip.mp4"
-```
-
-## Understanding the Response
-
-| Field | Description |
-|-------|-------------|
-| `id` | Unique identifier for this analysis |
-| `verdict` | `"human"` or `"ai"` |
-| `confidence` | 0.0 to 1.0 confidence score |
-| `content_type` | Type of content analyzed |
-| `signals` | Detailed breakdown of detection signals |
-| `processing_time_ms` | Time taken to process |
-
-## Detailed Analysis
-
-Add `?detailed=true` for comprehensive signal breakdown:
-
-```bash
-curl -X POST "http://localhost:8080/verify?detailed=true" \
-  -H "Content-Type: application/json" \
-  -d '{"text": "Your content here"}'
-```
+See the [API Reference](/manuscript/docs/api/endpoints/) for full request/response details, batch processing, and query parameters.
 
 ## Next Steps
 

@@ -116,34 +116,7 @@ results demonstrate significant patterns that warrant further investigation.
 
 ## API Usage
 
-```bash
-curl -X POST http://localhost:8080/verify \
-  -H "Content-Type: application/json" \
-  -d '{
-    "text": "Your text content here..."
-  }'
-```
-
-### Detailed Response
-
-```json
-{
-  "id": "hm_abc123",
-  "verdict": "human",
-  "confidence": 0.87,
-  "content_type": "text",
-  "signals": {
-    "sentence_variance": 0.42,
-    "vocabulary_richness": 0.78,
-    "contraction_ratio": 0.15,
-    "ai_phrases_detected": [],
-    "punctuation_variety": 0.65,
-    "burstiness": 0.38,
-    "hedging_score": 0.22
-  },
-  "processing_time_ms": 8
-}
-```
+Submit text via `POST /verify` with a JSON body. See the [API Reference](/manuscript/docs/api/endpoints/) for full request/response details, batch processing, and SDK examples.
 
 ## Accuracy Benchmarks
 

@@ -30,40 +30,21 @@ Every other AI detection service requires you to **upload your content to their 
 
 Unlike ML-based detectors that require GPUs and large models, Manuscript uses **statistical and forensic analysis**:
 
-### Text Detection
+### [Text Detection](/manuscript/docs/text-detection/)
 
-Analyzes linguistic patterns that differentiate human and AI writing:
-- Sentence length variance (humans vary more)
-- Vocabulary richness and rare word usage
-- Contraction patterns ("don't" vs "do not")
-- Known AI phrases ("As an AI...", "It's important to note...")
-- Hedging language and repetition patterns
+Analyzes linguistic patterns that differentiate human and AI writing, including sentence variance, vocabulary richness, contraction usage, and known AI phrase detection.
 
-### Image Detection
+### [Image Detection](/manuscript/docs/image-detection/)
 
-Examines forensic signals in image files:
-- EXIF metadata presence and validity
-- Camera make/model signatures
-- Sensor noise characteristics
-- Compression artifact patterns
-- Color distribution analysis
+Examines forensic signals in image files such as EXIF metadata, sensor noise, compression artifacts, and color distributions.
 
-### Audio Detection
+### [Audio Detection](/manuscript/docs/audio-detection/)
 
-Analyzes audio container and signal characteristics:
-- File header and container metadata
-- Encoding parameters and profiles
-- FFT spectral analysis
-- MFCC computation
-- AI tool fingerprints (ElevenLabs, Suno markers)
+Analyzes audio container metadata, FFT spectral patterns, MFCC coefficients, and AI tool fingerprints.
 
-### Video Detection
+### [Video Detection](/manuscript/docs/video-detection/)
 
-Combines multiple forensic approaches:
-- Container metadata analysis
-- Bitrate consistency checking
-- Temporal pattern analysis
-- Encoding signature detection
+Combines container metadata analysis, temporal pattern detection, encoding signatures, and audio track verification.
 
 ## Key Features
 

@@ -57,103 +57,16 @@ For each content type:
 
 ## Dataset Composition
 
-### Text (100 samples)
-
-| Category | Count | Source |
-|----------|-------|--------|
-| Human - Essays | 15 | Verified authors |
-| Human - Articles | 15 | NYT/News |
-| Human - Creative | 10 | Short stories, poetry |
-| Human - Technical | 10 | Documentation |
-| AI - GPT-4 | 15 | OpenAI |
-| AI - Claude | 15 | Anthropic |
-| AI - Gemini | 10 | Google |
-| AI - Llama-3 | 10 | Meta |
-
-### Image (100 samples)
-
-| Category | Count | Source |
-|----------|-------|--------|
-| Human - Photos | 25 | COCO/Unsplash |
-| Human - Artwork | 15 | Digital art |
-| Human - Screenshots | 10 | UI captures |
-| AI - DALL-E 3 | 15 | OpenAI |
-| AI - Midjourney v6 | 15 | Midjourney |
-| AI - Stable Diffusion 3 | 15 | Stability AI |
-| AI - FLUX | 5 | Black Forest |
-
-### Audio (100 samples)
-
-| Category | Count | Source |
-|----------|-------|--------|
-| Human - Speech | 20 | LibriSpeech |
-| Human - Podcast | 15 | Various |
-| Human - Music | 15 | CC-licensed |
-| AI - ElevenLabs | 20 | TTS synthesis |
-| AI - WaveFake | 15 | Vocoders |
-| AI - Music AI | 15 | Suno/Udio |
-
-### Video (100 samples)
-
-| Category | Count | Source |
-|----------|-------|--------|
-| Human - UGC | 25 | YouTube/Vimeo |
-| Human - Professional | 15 | Stock footage |
-| Human - Mobile | 10 | Smartphone |
-| AI - Deepfake | 20 | DeepfakeBench |
-| AI - Sora | 10 | OpenAI |
-| AI - Runway | 10 | Text-to-video |
-| AI - Other | 10 | Various tools |
+Each content type is tested with 100 samples (50 human + 50 AI-generated), drawn from diverse sources and generators. For full dataset details and download instructions, see the [Datasets](/manuscript/docs/datasets/) page.
 
 ## Signal Weights
 
-Each detection signal contributes to the final score with different weights:
+Each detection signal contributes to the final score with different weights. For the complete weight breakdown per content type, see the individual detection pages:
 
-### Text Detection Weights
-
-| Signal | Weight |
-|--------|--------|
-| AI Phrase Detection | 0.20 |
-| Vocabulary Richness | 0.20 |
-| Sentence Variance | 0.15 |
-| Contractions Usage | 0.10 |
-| Punctuation Variety | 0.10 |
-| Burstiness | 0.10 |
-| Repetition Penalty | 0.10 |
-| Word Length Variance | 0.05 |
-
-### Image Detection Weights
-
-| Signal | Weight |
-|--------|--------|
-| Metadata Score | 0.25 |
-| Color Distribution | 0.20 |
-| Edge Consistency | 0.15 |
-| Noise Pattern | 0.15 |
-| Compression Analysis | 0.15 |
-| Symmetry Detection | 0.10 |
-
-### Audio Detection Weights
-
-| Signal | Weight |
-|--------|--------|
-| Metadata Score | 0.25 |
-| Pattern Analysis | 0.20 |
-| Format Analysis | 0.15 |
-| Quality Indicators | 0.15 |
-| AI Signatures | 0.15 |
-| Noise Profile | 0.10 |
-
-### Video Detection Weights
-
-| Signal | Weight |
-|--------|--------|
-| Metadata Score | 0.25 |
-| Container Analysis | 0.20 |
-| Audio Presence | 0.15 |
-| Temporal Pattern | 0.15 |
-| Encoding Signature | 0.15 |
-| Bitrate Consistency | 0.10 |
+- [Text Detection](/manuscript/docs/text-detection/) - 8 signals including AI phrase detection, vocabulary richness, sentence variance
+- [Image Detection](/manuscript/docs/image-detection/) - 6 signals including metadata, color distribution, noise pattern
+- [Audio Detection](/manuscript/docs/audio-detection/) - 6 signals including metadata, spectral analysis, MFCC
+- [Video Detection](/manuscript/docs/video-detection/) - 6 signals including metadata, container analysis, temporal patterns
 
 ## Confidence Calculation
 
@@ -189,12 +102,7 @@ Results are saved to `benchmark/results/` with timestamps.
 - Audio samples are high-quality studio recordings
 - Video samples require API downloads
 
-### Detection Limitations
-
-- Short content (<100 words text, <5s audio/video) is less reliable
-- Heavily edited content may evade detection
-- New AI models may not be in signature databases
-- Language support is primarily English
+For detection-specific limitations, see each content type's dedicated page.
 
 ## Continuous Improvement
 

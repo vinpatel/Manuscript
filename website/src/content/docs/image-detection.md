@@ -93,42 +93,7 @@ Date: None
 
 ## API Usage
 
-### Upload via Form
-
-```bash
-curl -X POST http://localhost:8080/verify \
-  -F "image=@photo.jpg"
-```
-
-### Base64 Encoded
-
-```bash
-curl -X POST http://localhost:8080/verify \
-  -H "Content-Type: application/json" \
-  -d '{
-    "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJ..."
-  }'
-```
-
-### Response
-
-```json
-{
-  "id": "hm_xyz789",
-  "verdict": "ai",
-  "confidence": 0.76,
-  "content_type": "image",
-  "signals": {
-    "metadata_score": 0.0,
-    "color_distribution": 0.65,
-    "edge_consistency": 0.42,
-    "noise_pattern": 0.35,
-    "compression_analysis": 0.58,
-    "symmetry_score": 0.78
-  },
-  "processing_time_ms": 45
-}
-```
+Upload images via `POST /verify` using multipart form data or base64-encoded JSON. See the [API Reference](/manuscript/docs/api/endpoints/) for full request/response details.
 
 ## Current Benchmarks
 

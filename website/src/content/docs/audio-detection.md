@@ -91,32 +91,7 @@ Improvements came from:
 
 ## API Usage
 
-### Upload Audio File
-
-```bash
-curl -X POST http://localhost:8080/verify \
-  -F "audio=@recording.mp3"
-```
-
-### Response
-
-```json
-{
-  "id": "hm_audio456",
-  "verdict": "ai",
-  "confidence": 0.82,
-  "content_type": "audio",
-  "signals": {
-    "metadata_score": 0.30,
-    "spectral_analysis": 0.75,
-    "mfcc_score": 0.68,
-    "ai_signatures": ["elevenlabs_marker"],
-    "noise_profile": 0.25,
-    "temporal_consistency": 0.70
-  },
-  "processing_time_ms": 120
-}
-```
+Upload audio files via `POST /verify` using multipart form data. See the [API Reference](/manuscript/docs/api/endpoints/) for full request/response details.
 
 ## Current Benchmarks
 

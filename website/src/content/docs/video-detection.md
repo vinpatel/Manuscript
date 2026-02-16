@@ -77,36 +77,7 @@ When frame analysis is enabled:
 
 ## API Usage
 
-### Upload Video File
-
-```bash
-curl -X POST http://localhost:8080/verify \
-  -F "video=@clip.mp4"
-```
-
-### Response
-
-```json
-{
-  "id": "hm_video789",
-  "verdict": "ai",
-  "confidence": 0.78,
-  "content_type": "video",
-  "signals": {
-    "metadata_score": 0.40,
-    "container_analysis": 0.65,
-    "temporal_pattern": 0.72,
-    "encoding_signature": "runway_detected",
-    "bitrate_consistency": 0.55,
-    "audio_analysis": {
-      "present": true,
-      "verdict": "ai",
-      "confidence": 0.80
-    }
-  },
-  "processing_time_ms": 350
-}
-```
+Upload video files via `POST /verify` using multipart form data. See the [API Reference](/manuscript/docs/api/endpoints/) for full request/response details.
 
 ## Current Status
 
