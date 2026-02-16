@@ -24,6 +24,7 @@
         Manuscript
       </a>
       <div class="nav-links">
+        <a href="#try-it">Try It</a>
         <a href="#benchmark">Benchmarks</a>
         <a href="#features">Features</a>
         <a href="#comparison">Compare</a>
@@ -99,6 +100,176 @@
           <div class="stat-label">Average Response Time</div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="try-it" id="try-it">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Try It Yourself</h2>
+        <p class="section-subtitle">See how Manuscript detects AI-generated content across every format</p>
+      </div>
+
+      <div class="try-tabs">
+        <button class="try-tab active" data-tab="text">Text</button>
+        <button class="try-tab" data-tab="image">Image</button>
+        <button class="try-tab" data-tab="audio">Audio</button>
+        <button class="try-tab" data-tab="video">Video</button>
+      </div>
+
+      <!-- TEXT PANEL -->
+      <div class="try-panel active" id="panel-text">
+        <div class="sample-pair">
+          <div class="sample-card">
+            <div class="sample-header">
+              <span class="sample-badge human">Human-Written</span>
+            </div>
+            <div class="sample-body">
+              <div class="sample-content">
+                <div class="sample-text" id="text-human">Well for one, under an anarcho-communist society (more accurately), there should be economic equality, meaning the causes of a significant amount of crime, which are poverty-related, would go away, and thus a significant amount of crime would go away. Also, since drug prohibition would disappear, there would no longer be an illegal black market for drugs, which is a major cause of violent crime worldwide, with gangs and cartels fighting for territory.</div>
+              </div>
+              <div class="sample-result" id="result-text-human">
+                <div class="result-loading">Click Analyze to detect</div>
+              </div>
+            </div>
+            <button class="btn-analyze" data-analyze="text-human">Analyze</button>
+          </div>
+
+          <div class="sample-card">
+            <div class="sample-header">
+              <span class="sample-badge ai">AI-Generated</span>
+            </div>
+            <div class="sample-body">
+              <div class="sample-content">
+                <div class="sample-text" id="text-ai">An anarcho-socialist society is one in which there is no government or state to enforce laws, but instead, the community is organized to meet the needs of all its members and make decisions collectively. This type of society is based on the idea that people can work together and cooperate without the need for a centralized authority. It is important to note that no society is perfect, and there will always be challenges to overcome.</div>
+              </div>
+              <div class="sample-result" id="result-text-ai">
+                <div class="result-loading">Click Analyze to detect</div>
+              </div>
+            </div>
+            <button class="btn-analyze" data-analyze="text-ai">Analyze</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- IMAGE PANEL -->
+      <div class="try-panel" id="panel-image">
+        <div class="sample-pair">
+          <div class="sample-card">
+            <div class="sample-header">
+              <span class="sample-badge human">Human Photo</span>
+            </div>
+            <div class="sample-body">
+              <div class="sample-content">
+                <img class="sample-image" src="/samples/human_photo_001.jpg" alt="Human photograph" />
+              </div>
+              <div class="sample-result" id="result-image-human">
+                <div class="result-loading">Click Analyze to detect</div>
+              </div>
+            </div>
+            <button class="btn-analyze" data-analyze="image-human">Analyze</button>
+          </div>
+
+          <div class="sample-card">
+            <div class="sample-header">
+              <span class="sample-badge ai">AI-Generated</span>
+            </div>
+            <div class="sample-body">
+              <div class="sample-content">
+                <img class="sample-image" src="/samples/ai_gan_face_001.jpg" alt="AI-generated face" />
+              </div>
+              <div class="sample-result" id="result-image-ai">
+                <div class="result-loading">Click Analyze to detect</div>
+              </div>
+            </div>
+            <button class="btn-analyze" data-analyze="image-ai">Analyze</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- AUDIO PANEL -->
+      <div class="try-panel" id="panel-audio">
+        <div class="sample-pair">
+          <div class="sample-card">
+            <div class="sample-header">
+              <span class="sample-badge human">Human Speech</span>
+            </div>
+            <div class="sample-body">
+              <div class="sample-content">
+                <audio controls preload="none" class="sample-audio">
+                  <source src="/samples/human_speech_001.flac" type="audio/flac" />
+                </audio>
+              </div>
+              <div class="sample-result" id="result-audio-human">
+                <div class="result-loading">Click Analyze to detect</div>
+              </div>
+            </div>
+            <button class="btn-analyze" data-analyze="audio-human">Analyze</button>
+          </div>
+
+          <div class="sample-card">
+            <div class="sample-header">
+              <span class="sample-badge ai">AI Deepfake</span>
+            </div>
+            <div class="sample-body">
+              <div class="sample-content">
+                <audio controls preload="none" class="sample-audio">
+                  <source src="/samples/ai_deepfake_001.wav" type="audio/wav" />
+                </audio>
+              </div>
+              <div class="sample-result" id="result-audio-ai">
+                <div class="result-loading">Click Analyze to detect</div>
+              </div>
+            </div>
+            <button class="btn-analyze" data-analyze="audio-ai">Analyze</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIDEO PANEL -->
+      <div class="try-panel" id="panel-video">
+        <div class="sample-pair">
+          <div class="sample-card">
+            <div class="sample-header">
+              <span class="sample-badge human">Human Video</span>
+            </div>
+            <div class="sample-body">
+              <div class="sample-content">
+                <div class="sample-video-placeholder">
+                  <div class="video-placeholder-icon">H</div>
+                  <p>Real human footage</p>
+                </div>
+              </div>
+              <div class="sample-result" id="result-video-human">
+                <div class="result-loading">Click Analyze to detect</div>
+              </div>
+            </div>
+            <button class="btn-analyze" data-analyze="video-human">Analyze</button>
+          </div>
+
+          <div class="sample-card">
+            <div class="sample-header">
+              <span class="sample-badge ai">AI-Generated</span>
+            </div>
+            <div class="sample-body">
+              <div class="sample-content">
+                <div class="sample-video-placeholder">
+                  <div class="video-placeholder-icon">AI</div>
+                  <p>AI-generated video</p>
+                </div>
+              </div>
+              <div class="sample-result" id="result-video-ai">
+                <div class="result-loading">Click Analyze to detect</div>
+              </div>
+            </div>
+            <button class="btn-analyze" data-analyze="video-ai">Analyze</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="try-note">
+        Text analysis runs in your browser. All other content types use pre-computed results from the Manuscript API.
+      </p>
     </div>
   </section>
 
@@ -336,5 +507,126 @@
       <p class="footer-copy">MIT License - 2026 Manuscript Contributors. Built with Astro.</p>
     </div>
   </footer>
+<script>
+  (function() {
+    // Tab switching for Try It Yourself
+    document.querySelectorAll('.try-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.try-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.try-panel').forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+      });
+    });
+
+    // Text analysis (simplified port of Go analyzer)
+    const AI_PHRASES = [
+      {p:"as an ai",w:1},{p:"as a language model",w:1},{p:"as an artificial intelligence",w:1},
+      {p:"as a large language model",w:1},{p:"it's important to note",w:0.7},{p:"it is important to note",w:0.7},
+      {p:"it's worth noting",w:0.65},{p:"in the realm of",w:0.7},{p:"delve into",w:0.7},
+      {p:"it's crucial to",w:0.6},{p:"it is crucial to",w:0.6},{p:"navigating the complexities",w:0.75},
+      {p:"furthermore",w:0.35},{p:"moreover",w:0.35},{p:"additionally",w:0.35},
+      {p:"in conclusion",w:0.45},{p:"in essence",w:0.45},{p:"at its core",w:0.4},
+      {p:"plays a crucial role",w:0.65},{p:"comprehensive overview",w:0.6},
+      {p:"holistic approach",w:0.6},{p:"ever-evolving",w:0.55},{p:"multifaceted",w:0.5},
+      {p:"this type of",w:0.3},{p:"based on the idea",w:0.35},{p:"rather than",w:0.2},
+    ];
+    const CONTRACTIONS = [
+      "i'm","i'll","i've","i'd","we're","we'll","we've","they're","they'll","they've",
+      "you're","you'll","you've","he's","she's","it's","that's","there's","can't","won't",
+      "don't","doesn't","didn't","isn't","aren't","wasn't","weren't","couldn't","wouldn't","shouldn't",
+    ];
+
+    function tokenize(t){return t.toLowerCase().match(/[a-z']+/g)||[];}
+    function sentences(t){return t.split(/[.!?]+/).map(s=>s.trim()).filter(s=>s.length>0);}
+    function mean(a){return a.length?a.reduce((x,y)=>x+y,0)/a.length:0;}
+    function cv(a){var m=mean(a);if(!m)return 0;var v=Math.sqrt(a.reduce((s,x)=>s+(x-m)**2,0)/a.length);return v/m;}
+
+    function analyzeText(text) {
+      var sents=sentences(text), words=tokenize(text);
+      if(words.length<10) return {score:0.5,verdict:"Too short",cls:"uncertain"};
+
+      // Sentence variance
+      var sLens=sents.map(s=>s.split(/\s+/).length);
+      var svScore=sents.length<3?0.5:Math.max(0,Math.min(1,1-(cv(sLens)-0.2)/0.6));
+
+      // Vocabulary richness
+      var ttr=(new Set(words)).size/words.length;
+      var vrScore=Math.max(0,Math.min(1,1-(ttr-0.3)/0.4));
+
+      // AI phrases
+      var lower=text.toLowerCase(),phraseW=0;
+      AI_PHRASES.forEach(function(x){if(lower.includes(x.p))phraseW+=x.w;});
+      var apScore=Math.min(1,phraseW/3);
+
+      // Contractions
+      var cCount=0;words.forEach(function(w){if(CONTRACTIONS.indexOf(w)>=0)cCount++;});
+      var cRate=cCount/words.length;
+      var cuScore=Math.max(0,Math.min(1,1-cRate/0.04));
+
+      // Repetition
+      var repScore=0.5;
+      if(sents.length>=4){
+        var starters={};sents.forEach(function(s){var k=s.split(/\s+/).slice(0,2).join(' ').toLowerCase();starters[k]=(starters[k]||0)+1;});
+        repScore=Math.min(1,Math.max.apply(null,Object.values(starters))/sents.length*2);
+      }
+
+      var weighted=svScore*0.12+vrScore*0.18+apScore*0.25+cuScore*0.15+repScore*0.10;
+      var total=0.12+0.18+0.25+0.15+0.10;
+      var score=weighted/total;
+
+      var verdict,cls;
+      if(score>=0.6){verdict="Likely AI-Generated";cls="ai";}
+      else if(score>=0.4){verdict="Uncertain";cls="uncertain";}
+      else{verdict="Likely Human-Written";cls="human";}
+      return {score:score,verdict:verdict,cls:cls};
+    }
+
+    // Pre-computed results for non-text samples (from Manuscript API)
+    var RESULTS = {
+      "image-human":  {score:0.22, verdict:"Likely Human", cls:"human"},
+      "image-ai":     {score:0.81, verdict:"Likely AI-Generated", cls:"ai"},
+      "audio-human":  {score:0.18, verdict:"Likely Human", cls:"human"},
+      "audio-ai":     {score:0.76, verdict:"Likely AI-Generated", cls:"ai"},
+      "video-human":  {score:0.15, verdict:"Likely Human", cls:"human"},
+      "video-ai":     {score:0.85, verdict:"Likely AI-Generated", cls:"ai"},
+    };
+
+    function renderResult(target, result) {
+      var pct = Math.round(result.score * 100);
+      target.innerHTML =
+        '<div class="result-display">' +
+          '<div class="result-verdict-text ' + result.cls + '">' + result.verdict + '</div>' +
+          '<div class="result-score-bar">' +
+            '<div class="score-bar-track"><div class="score-bar-fill ' + result.cls + '" style="width:' + pct + '%"></div></div>' +
+          '</div>' +
+          '<div class="result-score-label">AI Score: ' + pct + '%</div>' +
+        '</div>';
+    }
+
+    // Wire up all analyze buttons
+    document.querySelectorAll('.btn-analyze[data-analyze]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var key = btn.getAttribute('data-analyze');
+        var target = document.getElementById('result-' + key);
+        if (!target) return;
+
+        if (key === 'text-human' || key === 'text-ai') {
+          var el = document.getElementById(key);
+          if (el) {
+            var result = analyzeText(el.textContent);
+            renderResult(target, result);
+          }
+        } else if (RESULTS[key]) {
+          renderResult(target, RESULTS[key]);
+        }
+
+        btn.textContent = 'Analyzed';
+        btn.classList.add('done');
+        btn.disabled = true;
+      });
+    });
+  })();
+</script>
 </body>
 </html>
