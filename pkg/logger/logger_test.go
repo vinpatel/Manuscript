@@ -26,10 +26,10 @@ func TestNew(t *testing.T) {
 		t.Run(tt.level, func(t *testing.T) {
 			log := New(tt.level)
 			if log == nil {
-				t.Error("New() returned nil")
+				t.Fatal("New() returned nil")
 			}
 			if log.Logger == nil {
-				t.Error("New() returned logger with nil slog.Logger")
+				t.Fatal("New() returned logger with nil slog.Logger")
 			}
 		})
 	}

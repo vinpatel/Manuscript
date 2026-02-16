@@ -201,17 +201,6 @@ func (d *imageDetector) fetchImageFromURL(ctx context.Context, url string) ([]by
 	return io.ReadAll(io.LimitReader(resp.Body, 50*1024*1024))
 }
 
-func (d *imageDetector) aggregateScores(scores []float64) float64 {
-	if len(scores) == 0 {
-		return 0.5
-	}
-	sum := 0.0
-	for _, s := range scores {
-		sum += s
-	}
-	return sum / float64(len(scores))
-}
-
 // =============================================================================
 // Audio Detector
 // =============================================================================
@@ -397,17 +386,6 @@ func (d *audioDetector) fetchAudioFromURL(ctx context.Context, url string) ([]by
 	return io.ReadAll(io.LimitReader(resp.Body, 100*1024*1024))
 }
 
-func (d *audioDetector) aggregateScores(scores []float64) float64 {
-	if len(scores) == 0 {
-		return 0.5
-	}
-	sum := 0.0
-	for _, s := range scores {
-		sum += s
-	}
-	return sum / float64(len(scores))
-}
-
 // =============================================================================
 // Video Detector
 // =============================================================================
@@ -591,15 +569,4 @@ func (d *videoDetector) detectWithHive(ctx context.Context, videoURL string) (fl
 	}
 
 	return 0, errors.New("no result from Hive API")
-}
-
-func (d *videoDetector) aggregateScores(scores []float64) float64 {
-	if len(scores) == 0 {
-		return 0.5
-	}
-	sum := 0.0
-	for _, s := range scores {
-		sum += s
-	}
-	return sum / float64(len(scores))
 }

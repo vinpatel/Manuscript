@@ -63,7 +63,7 @@ jobs:
 
       - name: Test Docker image
         run: |
-          docker run -d -p 8080:8080 --name manuscript-test manuscript:test
+          docker run -d -p 8080:8080 -e ENV=development --name manuscript-test manuscript:test
           sleep 5
           curl -f http://localhost:8080/health || exit 1
           docker stop manuscript-test

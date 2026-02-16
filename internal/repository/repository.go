@@ -211,6 +211,6 @@ func (r *postgresRepository) Close() error {
 // generateID creates a random URL-safe ID.
 func generateID() string {
 	bytes := make([]byte, 12)
-	rand.Read(bytes)
+	_, _ = rand.Read(bytes)
 	return hex.EncodeToString(bytes)
 }
